@@ -1,0 +1,23 @@
+usuarios
+
+citas
+--relacionada con usuarios(doctor y paciente)
+
+diagnóstico
+--relacionada con usuarios(doctor y paciente)
+
+recetas
+--relacionada con usuarios(doctor y paciente)
+
+medicamentos
+.hola
+
+
+códigos
+id
+codigo
+type_user
+
+
+medicamento-receta
+--relacionado con receta y medicamentos
