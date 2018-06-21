@@ -1,0 +1,29 @@
+﻿@page
+@model Ejercicio1.Pages.MaterialesModel
+@{
+    ViewData["Title"] = "Materiales";
+}
+
+<h2>Materiales</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>
+            ID
+        </th>
+        <th>
+            Nombre
+        </th>
+    </tr>
+    @foreach (var item in Model.materiales)
+    {
+        <tr>
+            <td>
+                @item.MaterialId
+            </td>
+            <td>
+                @item.Nombre
+            </td>
+        </tr>
+    }
+</table>
